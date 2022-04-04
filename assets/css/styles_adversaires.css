@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "spidermanFont";
+    src: url("../font/FarFromHomecoming.otf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "montserrat";
+}
+
+.headers {
+    background-color: #f1c530;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headers img {
+    margin-left: 2%;
+}
+
+.headers a {
+    margin-left: 4%;
+    text-decoration: none;
+    color: white;
+}
+
+#acceuil {
+    margin-left: 20%;
+}
+
+
+/* section super vilain */
+
+.bottomHeader {
+    background-image: url("/assets/Illustration/img7.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.title {
+    color: white;
+}
+
+.title h1 {
+    font-family: "spidermanFont";
+    font-size: 75px;
+}
+
+.title h3 {
+    padding-bottom: 5%;
+}
+
+main {
+    /* margin-bottom: 5%; */
+    background-color: #f1c530;
+}
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card {
+    color: black;
+    border-color: black;
+    background-color: #f1c530;
+    border-radius: 0px 0px 25px 25px;
+    margin: 20%;
+}
+
+.card h3,
+p {
+    /* text-align: justify; */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    font-size: 14px;
+}
+
+footer img {
+    margin-left: 1%;
+}
+
+#imgMemeTailleFooter {
+    height: 40%;
+}
+
+footer a {
+    color: white;
+}
+
+footer select {
+    background-color: #f1c530;
+    height: 30px;
+    border-radius: 15px;
+    width: 50%;
+    /* margin-left: 2%; */
+}
+
+.footerContent a {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+.icon img {
+    background-color: #f1c530;
+    border-radius: 50%;
+}
+
+#copyright {
+    margin-top: 3%;
+}

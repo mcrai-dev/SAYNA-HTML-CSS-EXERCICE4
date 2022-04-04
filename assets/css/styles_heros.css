@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "spidermanFont";
+    src: url("../font/FarFromHomecoming.otf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "montserrat";
+}
+
+.headers {
+    background-color: #114c92;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headers img {
+    margin-left: 2%;
+}
+
+.headers a {
+    margin-left: 4%;
+    text-decoration: none;
+    color: white;
+}
+
+#acceuil {
+    margin-left: 20%;
+}
+
+.bottomHeader section {
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+
+/*  2nde section  des valeurs a defendre */
+
+.valeurAdefendre {
+    background-color: #114c92;
+    padding: 10%;
+    padding-top: 5%;
+}
+
+.valeurAdefendre h1 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+}
+
+.textAndVideo {
+    padding-top: 5%;
+}
+
+.textAndVideo p {
+    text-align: justify;
+}
+
+.card {
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+
+
+/* 3eme section  des fondations solides */
+
+.fondationSolide {
+    background-image: url("/assets/Illustration/img20.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.fondationSolide h1 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+}
+
+
+/* 4eme section text Illustration */
+
+.textIllustration {
+    padding: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #114c92;
+}
+
+.textIllustration p {
+    text-align: justify;
+}
+
+
+/* 5eme section jamais seul */
+
+.jamaisSeul {
+    background-color: #114c92;
+    padding-top: 5%;
+}
+
+.jamaisSeul h1 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+}
+
+.jamaisSeul h4 {
+    padding-bottom: 5%;
+}
+
+.imgWithBig img {
+    width: 400px;
+}
+
+.imgWithPeopleTurnFromBack img {
+    width: 400px;
+}
+
+.imgWithPeopleTurnFromBack {
+    margin-top: -20%;
+    margin-left: 30%;
+}
+
+.desMeilleursAmis h3 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+}
+
+.stacy h3 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+}
+
+.stacySection {
+    padding-top: 5%;
+}
+
+.stacyImg {
+    text-align: center;
+}
+
+.threeImgOfStacy {
+    padding-top: 10%;
+}
+
+
+/* section les avengers */
+
+.lesAvengers {
+    padding-right: 10%;
+    padding-right: 0%;
+    background-color: #B11313;
+}
+
+#chaqueAvengers {
+    width: 75%;
+}
+
+#chaqueAvengers1 {
+    width: 100%;
+    padding: 5%;
+}
+
+.fourAvengers {
+    padding-left: 10%;
+    /* padding-bottom: 10%; */
+}
+
+.lesAvengersLeftRed {
+    /* background-color: #B11313; */
+}
+
+.lesAvengersLeftRed h2 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+    padding: 10%;
+}
+
+.lesAvengersLeftRed p {
+    font-size: 14px;
+}
+
+.lesAvengersText {
+    padding-left: 10%;
+}
+
+.lesAvengersText img {
+    margin-bottom: 5%;
+}
+
+.lesAvengersText p {
+    text-align: justify;
+}
+
+
+/* last section */
+
+.universHyperRiche {
+    background-image: url("/assets/Illustration/img33.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+    /* padding-left: 10%; */
+    /* padding-top: 10%; */
+}
+
+.universHyperRiche h1 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+    padding: 10%;
+    padding-bottom: 2%;
+    font-size: xx-large;
+}
+
+.universHyperRiche {
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-bottom: 0; */
+}
+
+.textHyperRiche {
+    background-color: rgba(17, 76, 146, 0.7);
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    font-size: 14px;
+}
+
+footer img {
+    margin-left: 1%;
+}
+
+#imgMemeTailleFooter {
+    height: 40%;
+}
+
+footer a {
+    color: white;
+}
+
+footer select {
+    background-color: #114c92;
+    height: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.footerContent a {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+.icon img {
+    background-color: #114c92;
+    border-radius: 50%;
+}
+
+#copyright {
+    margin-top: 3%;
+}
+
+
+/* cover header */
+
+.bottomHeader {
+    background-image: url("/assets/Illustration/img19.png");
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.bottomHeader h1 {
+    font-family: "spidermanFont";
+    font-size: 75px;
+    text-transform: uppercase;
+}

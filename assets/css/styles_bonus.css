@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "spidermanFont";
+    src: url("../font/FarFromHomecoming.otf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url(/assets/font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "montserrat";
+}
+
+.headers {
+    background-color: #B11313;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.headers img {
+    margin-left: 2%;
+}
+
+.headers a {
+    margin-left: 4%;
+    text-decoration: none;
+    color: white;
+}
+
+#acceuil {
+    margin-left: 20%;
+}
+
+
+/* main */
+
+.unHeros {
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+}
+
+.unHeros h1 {
+    font-family: "spidermanFont";
+    text-transform: uppercase;
+    /* padding: 10%; */
+    padding-bottom: 1px;
+    /* bottom: 0; */
+}
+
+
+/* footer */
+
+footer {
+    color: white;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 300px;
+    font-size: 14px;
+}
+
+footer img {
+    margin-left: 1%;
+}
+
+#imgMemeTailleFooter {
+    height: 40%;
+}
+
+footer a {
+    color: white;
+}
+
+footer select {
+    background-color: #114c92;
+    height: 30px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.footerContent a {
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 5%;
+}
+
+.icon img {
+    background-color: #114c92;
+    border-radius: 50%;
+}
+
+#copyright {
+    margin-top: 3%;
+}
